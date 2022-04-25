@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.div-master {
+   width: 100vw;
+   height: 100vh;
+   background-color: blue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.formulario {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 70%;
+    height: 80%; 
+}
+
+.input-form {
+    width: 80%;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid transparent;
+}
+
+.input-form:hover {
+    border: 2px solid red;
+    transition: .5s;
+}
+
+.input-form:focus {
+    border: 2px solid red;
+}
+
+.input-button {
+    padding: 10px;
+    margin-top: 25px;
+    width: 40%;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid transparent;
+}
+
+.input-button:hover {
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    transition: .5s;
+}
